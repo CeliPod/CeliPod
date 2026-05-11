@@ -1,38 +1,72 @@
 <div align="center">
 
-# 🎙️ CeliPod
+<img src="https://img.shields.io/badge/CeliPod-AI%20Software%20Engineer-blueviolet?style=for-the-badge&logo=openai&logoColor=white" alt="CeliPod Badge"/>
 
-**Your modern podcast companion — listen, discover, and enjoy.**
+# CeliPod
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/CeliPod/CeliPod/pulls)
-[![Stars](https://img.shields.io/github/stars/CeliPod/CeliPod?style=social)](https://github.com/CeliPod/CeliPod)
+### AI Software Engineer
+
+**Build smarter. Ship faster. Code with intelligence.**
+
+[![Website](https://img.shields.io/badge/Website-celipod.com-0A66C2?style=flat-square&logo=google-chrome&logoColor=white)](https://celipod.com)
+[![Company](https://img.shields.io/badge/By-PT.%20Celesti%20Link%20Dynamic-orange?style=flat-square)](https://github.com/CeliPod)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/CeliPod/CeliPod?style=flat-square&color=yellow)](https://github.com/CeliPod/CeliPod)
 
 ---
 
-*A sleek, fast, and intuitive podcast platform built for creators and listeners alike.*
+*CeliPod is an AI-powered software engineering platform that helps developers write, review, and deploy code with the power of artificial intelligence.*
+
+[Get Started](#-getting-started) · [Features](#-features) · [Documentation](#-documentation) · [Contributing](#-contributing)
 
 </div>
 
-## ✨ Features
+<br/>
 
-- 🎧 **Stream & Download** — Listen online or save episodes for offline playback
-- 🔍 **Smart Discovery** — Find new podcasts tailored to your interests
-- 📋 **Playlist Management** — Organize episodes into custom playlists
-- 🌙 **Dark Mode** — Easy on the eyes, day or night
-- ⚡ **Lightning Fast** — Optimized for speed and performance
-- 📱 **Responsive** — Works beautifully on any device
+## About
 
-## 🚀 Getting Started
+**CeliPod** is a product developed by **PT. Celesti Link Dynamic** — an innovative technology company focused on building intelligent tools for modern software development.
+
+CeliPod leverages cutting-edge AI to assist developers throughout the entire software development lifecycle: from planning and coding to testing and deployment.
+
+<br/>
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **AI Code Generation** | Generate production-ready code from natural language prompts |
+| **Intelligent Code Review** | Automated code analysis with actionable suggestions |
+| **Smart Debugging** | AI-assisted bug detection and resolution |
+| **Auto Documentation** | Generate comprehensive docs from your codebase |
+| **Multi-Language Support** | Works with Python, JavaScript, TypeScript, Go, and more |
+| **CI/CD Integration** | Seamless integration with your existing workflow |
+
+<br/>
+
+## Tech Stack
+
+<div align="center">
+
+![AI](https://img.shields.io/badge/AI-Powered-blueviolet?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</div>
+
+<br/>
+
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v18+)
+- [Node.js](https://nodejs.org/) v18+
+- [Python](https://python.org/) v3.10+
 - [Git](https://git-scm.com/)
 
-### Installation
+### Quick Start
 
 ```bash
 # Clone the repository
@@ -44,47 +78,78 @@ cd CeliPod
 # Install dependencies
 npm install
 
+# Set up environment variables
+cp .env.example .env.local
+
 # Start the development server
 npm run dev
 ```
 
-## 🏗️ Project Structure
+> Open [http://localhost:3000](http://localhost:3000) to see CeliPod in action.
+
+<br/>
+
+## Project Structure
 
 ```
 CeliPod/
-├── src/           # Source code
-├── public/        # Static assets
-├── docs/          # Documentation
-├── tests/         # Test files
-└── README.md      # You are here!
+├── src/
+│   ├── app/          # Next.js app router
+│   ├── components/   # Reusable UI components
+│   ├── lib/          # Utilities & AI integrations
+│   ├── services/     # API & business logic
+│   └── styles/       # Global styles
+├── ai/
+│   ├── models/       # AI model configurations
+│   └── prompts/      # Prompt templates
+├── public/           # Static assets
+├── tests/            # Test suites
+└── docs/             # Documentation
 ```
 
-## 🤝 Contributing
+<br/>
 
-Contributions are what make the open-source community amazing! Any contributions you make are **greatly appreciated**.
+## Documentation
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+| Resource | Link |
+|----------|------|
+| Getting Started Guide | [docs/getting-started.md](docs/getting-started.md) |
+| API Reference | [docs/api-reference.md](docs/api-reference.md) |
+| Architecture Overview | [docs/architecture.md](docs/architecture.md) |
+| Contributing Guide | [CONTRIBUTING.md](CONTRIBUTING.md) |
 
-## 📄 License
+<br/>
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## Contributing
 
-## 📬 Contact
+We welcome contributions from the community! Whether it's a bug fix, new feature, or documentation improvement — every contribution matters.
 
-**CeliPod Team** — [@CeliPod](https://github.com/CeliPod)
+1. **Fork** the repository
+2. **Create** your feature branch (`git checkout -b feature/your-feature`)
+3. **Commit** your changes (`git commit -m 'feat: add your feature'`)
+4. **Push** to the branch (`git push origin feature/your-feature`)
+5. **Open** a Pull Request
 
-Project Link: [https://github.com/CeliPod/CeliPod](https://github.com/CeliPod/CeliPod)
+Please read our [Contributing Guide](CONTRIBUTING.md) for more details.
 
----
+<br/>
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+<br/>
+
+## Contact
 
 <div align="center">
 
-Made with ❤️ by the CeliPod community
+**PT. Celesti Link Dynamic**
 
-⭐ Star this repo if you find it useful!
+Website: [celipod.com](https://celipod.com) · GitHub: [@CeliPod](https://github.com/CeliPod)
+
+---
+
+<sub>Built with passion by <strong>PT. Celesti Link Dynamic</strong> — Empowering developers with AI.</sub>
 
 </div>
